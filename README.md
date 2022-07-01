@@ -7,3 +7,17 @@ It's believed that DG (DiskGenius) checks for a valid license and does its fancy
 The way this works is it stores the license file and related files for licensing, into either Memory, or in a temporary folder, waiting a few seconds after DG starts, then restores the files.
 
 Working with DiskGenius 5.4.3.1342 x64 Professional
+
+## Using
+
+1. Install [DiskGenius](https://www.diskgenius.com/)
+
+2. Go to your DiskGenius installation folder (Usually `C:\Program Files\DiskGenius`)
+
+3. Rename DiskGenius.exe to DiskGenius_.exe
+
+4. Copy the [latest release](https://github.com/flleeppyy/DiskGeniusBypass/releases/latest) into the folder, choosing your preferred storage method, and rename it to DiskGenius.exe
+
+## License
+
+Licensed under the [MIT](LICENSE) license
