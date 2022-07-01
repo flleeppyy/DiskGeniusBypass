@@ -26,7 +26,7 @@ namespace DiskGeniusBypass
         private static string DiskGeniusExecutable = "DiskGenius_.exe";
 
         // Memory or MoveFiles
-        private static StorageMethod StoreType = StorageMethod.Memory;
+        private static StorageMethod StoreType = StorageMethod.MoveFiles;
 
         public static void Main(string[] args)
         {
@@ -73,7 +73,7 @@ namespace DiskGeniusBypass
                 DGProcess.Exited += new EventHandler(DiskGenius_Exited);
 
                 // Store the files
-                LicenseFileHandler fileHandler = new LicenseFileHandler(LicenseFileHandler.StorageMethod.Memory, LicenseFiles);
+                LicenseFileHandler fileHandler = new LicenseFileHandler(StoreType, LicenseFiles);
                 fileHandler.Store();
 
                 // Start it
