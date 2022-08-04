@@ -8,6 +8,11 @@ The way this works is it stores the license file and related files for licensing
 
 Working with DiskGenius 5.4.3.1342 x64 Professional
 
+## PLEASE NOTE
+
+You must have a "legit" DiskGenius license that doesn't work, in order for this to work, that includes the msimg32 dll that comes with said "legit" license.
+It will not be provided for you. This bypass was made after DiskGenius implemented a "legit" license check.
+
 ## Using
 
 1. Install [DiskGenius](https://www.diskgenius.com/)
